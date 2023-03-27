@@ -5,7 +5,7 @@ function App(){
     return(
         <Router>
             <Routes>
-                <Route exact path="/" element={<Home/>}/>
+                <Route exact path="/electricfish" element={<Home/>}/>
             </Routes>
         </Router>
     )
