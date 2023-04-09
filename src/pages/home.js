@@ -21,13 +21,13 @@ export default function Homepage() {
 
           <HashLink className='text-4xl px-10 py-5 float-left' to="#where">
             <div className='rounded-full border-2 border-black aspect-square grid place-items-center'>
-              <p className=''>Where</p>
+              <p className=''>Where?</p>
             </div>
           </HashLink>
 
           <HashLink className='text-4xl px-10 py-5 float-left' to="#how">
             <div className='rounded-full border-2 border-black aspect-square grid place-items-center'>
-              <p className=''>How</p>
+              <p className=''>How?</p>
             </div>
           </HashLink>
 
