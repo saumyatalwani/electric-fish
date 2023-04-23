@@ -8,7 +8,7 @@ export default function Homepage() {
       <div>
 
         <div className='h-[100vh] w-full'>
-          <h1 className='text-6xl px-10 py-10 heading'>ELECTRIC<br/>FISHES</h1>
+          <h1 className='text-6xl px-10 py-10 heading'>ELECTRIC<br/>FISH</h1>
         </div>
 
         <div className='h-[100vh] heading'>
