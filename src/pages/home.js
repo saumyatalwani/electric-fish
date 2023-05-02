@@ -12,8 +12,13 @@ export default function Homepage() {
     return (
       <div>
 
-        <div className='h-[100vh] w-full'>
-          <h1 className='text-6xl px-10 py-10 heading'>ELECTRIC<br/>FISH</h1>
+        <div className='h-[100vh] p-10 w-full'>
+          <h1 className='text-6xl heading'>ELECTRIC<br/>FISH</h1>
+          <h1 className='italic text-3xl pb-5'>(Apteronotus albifrons)</h1>
+          <p className='pb-5'>{data.landDg1}</p>
+          <p className='pb-5'>{data.landDg2}</p>
+          <p className='pb-5'>{data.landDg3}</p>
+          <p className='pb-5'>{data.landDg4}</p>
         </div>
 
         <div className='h-[100vh] heading'>

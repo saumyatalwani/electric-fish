@@ -1,3 +1,13 @@
+/* landing */
+
+const landDg1 = "Some fish have a unique ability to generate electric fields, making them \"electrogenic,\" while others can detect electric fields, making them \"electroreceptive.\" Most electric fish possess both of these abilities. There are several fish species, such as skates, rays, sharks, and catfish, that are electroreceptive, but not electrogenic. As a result, they are not typically referred to as electric fish."
+
+const landDg2 = "Apteronotus albifrons, commonly known as the black ghost knifefish or the black ghost electric fish, is a species of electric knifefish that belongs to the Apteronotidae family."
+
+const landDg3 = "Similar to how humans have different senses like sight and hearing, the black ghost knifefish has an electric sense. It can generate electric fields which it uses for navigation and communication with other fish. This specialized sense is well-developed and allows the fish to adapt in the dark and murky waters it inhabits."
+
+const landDg4 = "Apteronotus albifrons is a solitary and a nocturnal species. It is primarily carnivorous and feeds on insect larvae, and small crustaceans."
+
 /* where */
  
 const descText = "It is a freshwater fish species native to South America, specifically found in the Amazon Basin, Orinoco Basin, and other rivers and lakes in the region."
@@ -29,4 +39,4 @@ const eodwp_p3= "The figure above illustrates the different types of EOD wavefor
 const eodwp_p4 = "Apteronotus have a wave-type EOD, with a high discharge frequency (about 1 kHz) and a weak electric field (a few mV near the fish)."
 
 
-module.exports={descText,list,howTxt,eodP1,eodP2,eodP3,eodP4,eodSbhd,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4}
+module.exports={landDg1,landDg2,landDg3,landDg4,descText,list,howTxt,eodP1,eodP2,eodP3,eodP4,eodSbhd,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4}
