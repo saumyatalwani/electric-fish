@@ -1,4 +1,5 @@
 import React from 'react'
+import {useState} from 'react';
 //import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import diagram from '../img.jpeg'
@@ -8,14 +9,37 @@ var data = require("../content")
 
 
 export default function Homepage() {
+
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
+
+  function HoverDlg() {
+    return (
+      <div>
+        <p className='pb-5 w-[50vw] bg-slate-400'>{data.landDg1}</p>
+      </div>
+    );
+  }
   
     return (
       <div>
 
         <div className='h-[100vh] p-10 w-full'>
-          <h1 className='text-6xl heading'>ELECTRIC<br/>FISH</h1>
-          <h1 className='italic text-3xl pb-5'>(Apteronotus albifrons)</h1>
-          <p className='pb-5'>{data.landDg1}</p>
+          <div>
+            <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+              <h1 className='text-6xl heading'>ELECTRIC<br/>FISH</h1>
+              <h1 className='italic text-3xl pb-5'>(Apteronotus albifrons)</h1>
+            </div>
+            {isHovering && <HoverDlg/>}
+          </div>
+          
           <p className='pb-5'>{data.landDg2}</p>
           <p className='pb-5'>{data.landDg3}</p>
           <p className='pb-5'>{data.landDg4}</p>
