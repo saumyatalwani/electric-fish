@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -26,3 +27,31 @@ code {
 .heading{
     font-family: 'Agrandir','sans-serif';
   }
+
+  .lb1:after{
+    content:'History';
+}
+  .lb1:hover:after{
+    content:'two lines worth of content. will go here';
+}
+
+.lb2:after{
+  content:'When?';
+}
+.lb2:hover:after{
+  content:'two lines worth of content. will go here';
+}
+
+.lb3:after{
+  content:'Where?';
+}
+.lb3:hover:after{
+  content:'two lines worth of content. will go here';
+}
+
+.lb4:after{
+  content:'Experiment';
+}
+.lb4:hover:after{
+  content:'two lines worth of content. will go here';
+}

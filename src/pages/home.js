@@ -44,32 +44,28 @@ export default function Homepage() {
           <p className='pb-5'>{data.landDg3}</p>
           <p className='pb-5'>{data.landDg4}</p>
         </div>
-
+      
         <div className='h-[100vh] heading'>
 
-          <HashLink className='text-4xl px-10 py-5 float-left' to="#hist">
-            <div className='rounded-full border-2 border-black aspect-square grid place-items-center'>
-              <p className=''>History</p>
+          <HashLink className='px-10 py-5 float-left' to="#hist">
+            <div className='p-5 lb1 text-4xl hover:bg-black hover:text-sm hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'>
             </div>
           </HashLink>
 
-          <HashLink className='text-4xl px-10 py-5 float-left' to="#where">
-            <div className='rounded-full border-2 border-black aspect-square grid place-items-center'>
-              <p className=''>Where?</p>
+          <HashLink className='px-10 py-5 float-left' to="#where">
+            <div className='p-5 lb2 text-4xl hover:bg-black hover:text-sm hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'> 
             </div>
           </HashLink>
 
-          <HashLink className='text-4xl px-10 py-5 float-left' to="#how">
-            <div className='rounded-full border-2 border-black aspect-square grid place-items-center'>
-              <p className='circle_type'>How?</p>
+          <HashLink className='px-10 py-5 float-left' to="#how">
+            <div className='p-5 lb3 text-4xl hover:bg-black hover:text-sm hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'>
             </div>
           </HashLink>
 
           
 
-          <HashLink className='text-4xl px-10 py-5 float-left' to="#exp">
-            <div className='rounded-full border-2 border-black aspect-square grid place-items-center'>
-              <p className=''>Experiment</p>
+          <HashLink className='px-10 py-5 float-left' to="#exp">
+            <div className='p-5 lb4 text-2xl hover:bg-black hover:text-sm hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'>
             </div>
           </HashLink>
 
@@ -77,13 +73,17 @@ export default function Homepage() {
           
         </div>
 
-        <div className='h-screen' id='hist'>
-          <h2 className='text-4xl px-10 py-10 heading'>History</h2>
-          {//p className='px-10'>timeline goes here</p>
-          }
+        <div className='relative h-screen py-10' id='hist'>
+          <h2 className='text-4xl heading px-10'>History</h2>
           <iframe title="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gdrUPByUq0VuKsgNHNihEd1zbXTFQzmz4uOOePT38_w&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+          <div className='px-10 absolute bottom-5'>
+            <HashLink to="#where">
+              <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
+            </HashLink>
+          </div>
         </div>
-        <div className='p-10 h-screen' id='where'>
+
+        <div className='relative p-10 h-screen' id='where'>
           <h2 className='text-4xl heading'>Where?</h2>
           <p className='py-5'>*worldmap goes here*</p>
           <p className='pb-5'>{data.descText}</p>
@@ -94,11 +94,23 @@ export default function Homepage() {
               })
             }
           </ul>
+          <div className='absolute bottom-0'>
+            <HashLink to="#how">
+              <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
+            </HashLink>
+          </div>
         </div>
-        <div className='p-10 h-screen' id='how'>
+
+        <div className='relative p-10 h-screen' id='how'>
           <h2 className='text-4xl heading pb-5'>How?</h2>
           <p>{data.howTxt}</p>
+          <div className='absolute bottom-0'>
+            <HashLink to="#exp">
+              <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
+            </HashLink>
+          </div>
         </div>
+
         <div className='h-screen p-10' id='exp'>
           <h2 className='text-4xl pb-10 heading'>Experiment</h2>
           <p className='pb-5'>{data.eodP1}</p>

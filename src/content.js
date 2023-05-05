@@ -38,5 +38,6 @@ const eodwp_p3= "The figure above illustrates the different types of EOD wavefor
 
 const eodwp_p4 = "Apteronotus have a wave-type EOD, with a high discharge frequency (about 1 kHz) and a weak electric field (a few mV near the fish)."
 
+const content1 =['History','two lines worth of content goes here']
 
-module.exports={landDg1,landDg2,landDg3,landDg4,descText,list,howTxt,eodP1,eodP2,eodP3,eodP4,eodSbhd,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4}
+module.exports={landDg1,landDg2,landDg3,landDg4,descText,list,howTxt,eodP1,eodP2,eodP3,eodP4,eodSbhd,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,content1}
