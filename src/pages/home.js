@@ -94,7 +94,7 @@ export default function Homepage() {
               })
             }
           </ul>
-          <div className='absolute bottom-0'>
+          <div className='absolute bottom-5'>
             <HashLink to="#how">
               <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
             </HashLink>
@@ -104,7 +104,7 @@ export default function Homepage() {
         <div className='relative p-10 h-screen' id='how'>
           <h2 className='text-4xl heading pb-5'>How?</h2>
           <p>{data.howTxt}</p>
-          <div className='absolute bottom-0'>
+          <div className='absolute bottom-5'>
             <HashLink to="#exp">
               <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
             </HashLink>
