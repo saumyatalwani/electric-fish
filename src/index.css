@@ -29,29 +29,51 @@ code {
   }
 
   .lb1:after{
-    content:'History';
+    content:'Depths of Time';
 }
   .lb1:hover:after{
-    content:'two lines worth of content. will go here';
+    content:'History of Animal Electricity';
+}
+
+.lb2{
+  background-image: url('map.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .lb2:after{
-  content:'When?';
+  content:' ';
 }
 .lb2:hover:after{
-  content:'two lines worth of content. will go here';
+  content:'Where to find them?';
 }
 
 .lb3:after{
-  content:'Where?';
+  content:' ';
 }
+
+.lb3{
+  background-image: url('flash.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .lb3:hover:after{
-  content:'two lines worth of content. will go here';
+  content:'What makes them Electric?';
 }
 
 .lb4:after{
-  content:'Experiment';
+  content:'In the Lab';
 }
 .lb4:hover:after{
-  content:'two lines worth of content. will go here';
+  content:'Experiments in the lab';
+}
+
+.bg-fish{
+  background-image: url("fish.png");
+  background-size: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
