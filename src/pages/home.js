@@ -53,22 +53,22 @@ export default function Homepage() {
           
           <div>
           <HashLink className='px-10 float-left' to="#hist">
-            <div className='p-5 lb1 text-4xl text-center hover:bg-black hover:text-xl hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'>
+            <div className='p-5 lb1 text-2xl lg:text-4xl w-[200px] lg:w-[250px] text-center hover:bg-black hover:text-xl hover:text-white hover:opacity-60 rounded-full border-2 border-black aspect-square grid place-items-center'>
             </div>
           </HashLink>
 
           <HashLink className='px-10 float-left' to="#where">
-            <div className='p-5 lb2 text-4xl text-center hover:bg-black hover:text-sm hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'> 
+            <div className='p-5 lb2 text-2xl lg:text-4xl w-[200px] lg:w-[250px] text-center hover:bg-black hover:text-sm hover:text-white hover:opacity-60 rounded-full border-2 border-black aspect-square grid place-items-center'> 
             </div>
           </HashLink>
 
           <HashLink className='px-10 float-left' to="#how">
-            <div className='p-5 lb3 text-2xl text-center hover:bg-black hover:text-sm hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'>
+            <div className='p-5 lb3 text-2xl lg:text-4xl w-[200px] lg:w-[250px] text-center hover:bg-black hover:text-sm hover:text-white hover:opacity-60 rounded-full border-2 border-black aspect-square grid place-items-center'>
             </div>
           </HashLink>
 
           <HashLink className='px-10 float-left' to="#exp">
-            <div className='p-5 lb4 text-4xl text-center hover:bg-black hover:text-xl hover:text-white hover:opacity-60 w-[250px] rounded-full border-2 border-black aspect-square grid place-items-center'>
+            <div className='p-5 lb4 text-4xl lg:text-4xl w-[200px] lg:w-[250px] text-center hover:bg-black hover:text-xl hover:text-white hover:opacity-60 rounded-full border-2 border-black aspect-square grid place-items-center'>
             </div>
           </HashLink>
           </div>
@@ -84,9 +84,9 @@ export default function Homepage() {
         </div>
 
         <div className='relative h-screen py-10 bg-fish' id='hist'>
-          <h2 className='text-4xl heading px-10 pb-10'>Depths of Time</h2>
+          <h2 className='text-4xl heading px-10 pb-2'>Depths of Time</h2>
           <div className='absolute z-10 w-[100vw] grid place-item-center'>
-          <iframe className='px-5' title="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gdrUPByUq0VuKsgNHNihEd1zbXTFQzmz4uOOePT38_w&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+          <iframe className='px-10 h-[75vh] w-[100vw]' title="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gdrUPByUq0VuKsgNHNihEd1zbXTFQzmz4uOOePT38_w&font=Default&lang=en&initial_zoom=2&height=650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
           </div>
           <div className='px-10 absolute bottom-5 grid w-screen place-items-center z-10'>
             <HashLink to="#where">
