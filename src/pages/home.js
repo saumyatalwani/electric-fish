@@ -85,7 +85,9 @@ export default function Homepage() {
 
         <div className='relative h-screen py-10 bg-fish' id='hist'>
           <h2 className='text-4xl heading px-10 pb-10'>Depths of Time</h2>
-          <iframe className='px-10 relative z-10' title="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gdrUPByUq0VuKsgNHNihEd1zbXTFQzmz4uOOePT38_w&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+          <div className='absolute z-10 w-[100vw] grid place-item-center'>
+          <iframe className='px-5' title="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1gdrUPByUq0VuKsgNHNihEd1zbXTFQzmz4uOOePT38_w&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+          </div>
           <div className='px-10 absolute bottom-5 grid w-screen place-items-center z-10'>
             <HashLink to="#where">
               <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
