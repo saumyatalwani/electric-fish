@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/electricfish/static/css/main.a9e9cb95.css",
-    "main.js": "/electricfish/static/js/main.b3a40f59.js",
+    "main.css": "/electricfish/static/css/main.a0534af0.css",
+    "main.js": "/electricfish/static/js/main.e8c3e8af.js",
     "static/media/fish.png": "/electricfish/static/media/fish.a559aa6050903eb0d252.png",
     "static/media/img.jpeg": "/electricfish/static/media/img.fce6af8aafbe61d14393.jpeg",
     "static/media/webfont.woff": "/electricfish/static/media/webfont.513cb040d9e7815c7c68.woff",
     "static/media/map.png": "/electricfish/static/media/map.d2d1afdb57bc27a6d353.png",
     "index.html": "/electricfish/index.html",
-    "main.a9e9cb95.css.map": "/electricfish/static/css/main.a9e9cb95.css.map",
-    "main.b3a40f59.js.map": "/electricfish/static/js/main.b3a40f59.js.map"
+    "main.a0534af0.css.map": "/electricfish/static/css/main.a0534af0.css.map",
+    "main.e8c3e8af.js.map": "/electricfish/static/js/main.e8c3e8af.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9e9cb95.css",
-    "static/js/main.b3a40f59.js"
+    "static/css/main.a0534af0.css",
+    "static/js/main.e8c3e8af.js"
   ]
 }
