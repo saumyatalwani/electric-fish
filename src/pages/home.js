@@ -30,27 +30,45 @@ export default function Homepage() {
   
     return (
       <div>
+        
+        <div className='h-[100vh] p-10 bg-fish grid place-items-center w-full'>
+          <h1 className='text-6xl heading place-items-center'>ELECTRIC FISH</h1>
+          <div className='absolute bottom-5 grid place-items-center w-screen text-3xl'>
+            <HashLink to="#1"><p className='border-4 p-4 border-black'>START</p></HashLink>
+          </div>
+        </div>
 
-        <div className='h-[100vh] p-10 w-full bg-fish '>
+        <div className='h-[100vh] p-10 w-full bg-fish relative' id="1">
+
           <div className='pb-[125px]'>
+
             <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
               <h1 className='text-6xl heading'>ELECTRIC<br/>FISH</h1>
               <h1 className='italic text-3xl pb-5'>(Black Ghost Knife Fish)</h1>
             </div>
+
             {isHovering && <HoverDlg/>}
           </div>
+
           <div>
             <p className='pb-5'>{data.landDg2}</p>
             <p className='pb-5'>{data.landDg3}</p>
             <p className='pb-5'>{data.landDg4}</p>
             <p className='pb-5'>{data.landDg5}</p>
           </div>
-          
-        </div>
-        <h1 className='px-10 heading w-screen text-center text-4xl'> EXPLORE </h1>
-        <div className='grid h-[100vh] heading bg-fish place-items-center'>
+         
+          <div className='px-10 absolute bottom-5 grid w-screen place-items-center z-10'>
+            <HashLink to="#explore">
+              <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
+            </HashLink>
 
-          
+          </div>
+         
+
+        </div>
+
+        <h1 className='px-10 heading w-screen text-center text-4xl'> EXPLORE </h1>
+        <div className='grid h-[100vh] heading bg-fish place-items-center' id="explore">
           <div>
           <HashLink className='px-10 float-left' to="#hist">
             <div className='p-5 lb1 text-2xl lg:text-4xl w-[200px] lg:w-[250px] text-center hover:bg-black hover:text-xl hover:text-white hover:opacity-60 rounded-full border-2 border-black aspect-square grid place-items-center'>
