@@ -2,7 +2,12 @@ import React from 'react'
 import {useState} from 'react';
 //import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
-import diagram from '../img.jpeg'
+//import diagram from '../img.jpeg'
+import diagram2 from '../img2.jpeg'
+import diagram3 from '../img3.jpeg'
+import diagram4 from '../img4.jpeg'
+import diagram5 from '../img5.jpeg'
+import diagram1 from '../img1.jpeg'
 
 var data = require("../content")
 
@@ -51,6 +56,7 @@ export default function Homepage() {
           </div>
 
           <div>
+            <p className='pb-5'>{data.landDg1}</p>
             <p className='pb-5'>{data.landDg2}</p>
             <p className='pb-5'>{data.landDg3}</p>
             <p className='pb-5'>{data.landDg4}</p>
@@ -127,26 +133,41 @@ export default function Homepage() {
           */
           }
           <div className='absolute bottom-5 grid place-items-center w-screen'>
-            <HashLink to="#how1">
+            <HashLink to="#how">
               <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
             </HashLink>
           </div>
         </div>
 
-        <div className='relative p-10 h-screen bg-fish' id='how1'>
+        <div className='relative p-10 h-screen bg-fish' id='how'>
           <h2 className='text-4xl heading pb-5'>What makes them electric?</h2>
-          <p className='pb-5'>{data.howTxt}</p>
-          <p className='py-5 font-bold text-4xl'>{data.eodSbhd1}</p>
-          <p className='pb-5'>{data.eod_P1}</p>
+          <img className="h-[200px]" src={diagram1} alt="down arrow"/>
+          <p className='pb-1'>{data.howTxt1}</p>
+          <p className='pb-1'>{data.howTxt2}</p>
+          <p className='pb-1'>{data.howTxt3}</p>
+          <p className='pb-1'>{data.howTxt4}</p>
+          <p className='pb-1'>{data.howTxt5}</p>
+          <img className="h-[200px]" src={diagram2} alt="down arrow"/>
+          <p className='pb-1'>{data.howTxt6}</p>
+          <p className='pb-1'>{data.howTxt7}</p>
+          <p className='pb-1'>{data.howTxt8}</p>
+          <img className="h-[200px]" src={diagram3} alt="down arrow"/>
+          <p className='pb-1'>{data.howTxt9}</p>
+          <img className="h-[200px]" src={diagram4} alt="down arrow"/>
+          <p className='pb-1'>{data.howTxt10}</p>
+          <img className="h-[200px]" src={diagram5} alt="down arrow"/>
+          <p className='pb-1'>{data.howTxt11}</p>
+          <p className='py-1 font-bold text-4xl'>{data.eodSbhd1}</p>
+          <p className='pb-1'>{data.eod_P1}</p>
           <div className='grid w-screen place-items-center absolute bottom-5'>
-            <HashLink to="#how2">
+            <HashLink to="#exp">
               <img className="aspect-square h-[25px]" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Arrow_bottom_svg.svg" alt="down arrow"/>
             </HashLink>
           </div>
         </div>
 
         
-
+        {/*
         <div className='relative p-10 h-screen bg-fish' id='how2'>
 
         <h2 className='text-4xl heading pb-5'>What makes them electric?</h2>
@@ -166,8 +187,9 @@ export default function Homepage() {
           </div>
         </div>
           
+     
         </div>
-
+ 
         <div className='h-screen p-10 bg-fish' id='exp'>
           <h2 className='text-4xl pb-10 heading'>In the Lab</h2>
           <p className='py-5 font-bold text-4xl'>{data.itb_sbhd}</p>
@@ -176,8 +198,10 @@ export default function Homepage() {
           <p className='pb-5'>{data.eodP2}</p>
           <p className='pb-5'>{data.eodP3}</p>
           <p className='pb-5 font-bold'>{data.eodP4}</p>
-          */}
+         
         </div>
+        */}
       </div>
+       
     )
   }

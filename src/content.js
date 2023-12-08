@@ -4,7 +4,7 @@ const landDg1 = "Meet the Black Ghost Knifefish, a fascinating creature with an 
 
 const landDg2 = "Unlike us, it generates electric fields to navigate and communicate with other fish, especially in the dark and murky waters it calls home. This extraordinary sense is well-developed and gives the knifefish an edge in adapting to its environment."
 
-const landDg3 = "When is the fish considered ‘electric’?"
+const landDg3 = "**When is a fish considered ‘electric’?**"
 
 const landDg4 = "Some fish can produce electric fields, which makes them \"electrogenic\", while others can detect electric fields, which makes them \"electroreceptive\"."
 
@@ -21,19 +21,19 @@ const list = ['Astroscopus','Electrophorus','Apteronotus','Gymnotus','Torpedo','
 
 /* img1 */
 
-const howTxt1 = "What is the source of electricity generation in the electric products?" /* bold */
+const howTxt1 = "**What is the source of electricity generation in the electric products?**" /* bold*/
 
 const howTxt2 = "A battery!"
 
 const howTxt3 = "Similarly, electric fish have something known as an ‘ELECTRIC ORGAN’ for electricity generation."
 
-const howTxt4 = "Where is the organ located?"  /* bold */
+const howTxt4 = "**Where is the organ located?**"  /* bold */
 
 const howTxt5 = "It varies from species to species."
 
 /* img2 */
 
-const howTxt6 = "What is an Electric Organ?" /* bold */
+const howTxt6 = "**What is an Electric Organ?**" /* bold */
 
 const howTxt7 = "An electric organ consists of multiple columns, each containing thousands of stacked electrocytes (electric cells). These cells are exclusively connected to nerves on one side, with the connected side oriented towards the fish's tail."
 
@@ -49,7 +49,7 @@ const howTxt10 = "The movement of ions only takes place on the innervated side. 
 
 /* img5 */
 
-const howTxt11 = "All the cells are innervated on only one side. This facilitates unimpeded charge movement towards the head. And then from the head to the tail, outside the body. All the cells receive the signal simultaneously, which facilitates the creation of an electric field around the body of the fish. This field is known as ‘ELECTRIC ORGAN DISCHARGE’."
+const howTxt11 = "All the cells are innervated on only one side. This facilitates unimpeded charge movement towards the head. And then from the head to the tail, outside the body. All the cells receive the signal simultaneously, which facilitates the creation of an electric field around the body of the fish. This field is known as **‘ELECTRIC ORGAN DISCHARGE’**."
 
 
 
@@ -88,4 +88,4 @@ const eodwp_p4 = ""
 const itb_sbhd="Foraging Behaviour: Is it Random?"
 
 
-module.exports={landDg1,landDg2,landDg3,landDg4,landDg5,descText,list,howTxt,eodSbhd1,eod_P1,eodSbhd2,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,itb_sbhd}
+module.exports={landDg1,landDg2,landDg3,landDg4,landDg5,howTxt1,howTxt2,howTxt3,howTxt4,howTxt5,howTxt6,howTxt7,howTxt8,howTxt9,howTxt10,howTxt11,/*descText,list,howTxt,eodSbhd1,eod_P1,eodSbhd2,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,*/itb_sbhd}
