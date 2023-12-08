@@ -1,5 +1,7 @@
 /* landing */
 
+const hovTxt = "__Apteronotus albifrons__, commonly known as the black ghost knifefish or the black ghost electric fish, is a species of electric knife fish that belongs to the Apteronotidae family. It is a solitary and a nocturnal species. It is primarily a carnivorous animal and feeds on insect larvae, and small crustaceans."
+
 const landDg1 = "Meet the Black Ghost Knifefish, a fascinating creature with an electric sense!"
 
 const landDg2 = "Unlike us, it generates electric fields to navigate and communicate with other fish, especially in the dark and murky waters it calls home. This extraordinary sense is well-developed and gives the knifefish an edge in adapting to its environment."
@@ -88,4 +90,4 @@ const eodwp_p4 = ""
 const itb_sbhd="Foraging Behaviour: Is it Random?"
 
 
-module.exports={landDg1,landDg2,landDg3,landDg4,landDg5,howTxt1,howTxt2,howTxt3,howTxt4,howTxt5,howTxt6,howTxt7,howTxt8,howTxt9,howTxt10,howTxt11,/*descText,list,howTxt,eodSbhd1,eod_P1,eodSbhd2,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,*/itb_sbhd}
+module.exports={hovTxt,landDg1,landDg2,landDg3,landDg4,landDg5,howTxt1,howTxt2,howTxt3,howTxt4,howTxt5,howTxt6,howTxt7,howTxt8,howTxt9,howTxt10,howTxt11,/*descText,list,howTxt,eodSbhd1,eod_P1,eodSbhd2,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,*/itb_sbhd}
