@@ -1,6 +1,6 @@
 /* landing */
 
-const hovTxt = "__Apteronotus albifrons__, commonly known as the black ghost knifefish or the black ghost electric fish, is a species of electric knife fish that belongs to the Apteronotidae family. It is a solitary and a nocturnal species. It is primarily a carnivorous animal and feeds on insect larvae, and small crustaceans."
+const hovTxt = "_Apteronotus albifrons_, commonly known as the black ghost knifefish or the black ghost electric fish, is a species of electric knife fish that belongs to the Apteronotidae family. It is a solitary and a nocturnal species. It is primarily a carnivorous animal and feeds on insect larvae, and small crustaceans."
 
 const landDg1 = "Meet the Black Ghost Knifefish, a fascinating creature with an electric sense!"
 
@@ -23,7 +23,7 @@ const list = ['Astroscopus','Electrophorus','Apteronotus','Gymnotus','Torpedo','
 
 /* img1 */
 
-const howTxt1 = "**What is the source of electricity generation in the electric products?**" /* bold*/
+const howTxt1 = `**What is the source of electricity generation in the electric products?**` /* bold*/
 
 const howTxt2 = "A battery!"
 
@@ -89,5 +89,19 @@ const eodwp_p4 = ""
 
 const itb_sbhd="Foraging Behaviour: Is it Random?"
 
+const abt1 = `This website is a part of a voluntary project done by **Hardi Talwani** at the **Ratnam Electrophysiology Lab** at School of Arts and Sciences, Ahmedabad University.`
 
-module.exports={hovTxt,landDg1,landDg2,landDg3,landDg4,landDg5,howTxt1,howTxt2,howTxt3,howTxt4,howTxt5,howTxt6,howTxt7,howTxt8,howTxt9,howTxt10,howTxt11,/*descText,list,howTxt,eodSbhd1,eod_P1,eodSbhd2,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,*/itb_sbhd}
+const abt2 = `Electric fish have provided insights into a wide range of topics, including neural coding, sensorimotor integration, and evolutionary biology. Despite extensive research on the subject, many questions about these creatures remain unanswered, making them a fascinating subject of study in biology and neurobiology.`
+
+const abt3 = `Electric fish can be difficult to understand for those without a background in biology or neuroscience. Whenever an attempt was made to explain the experimental projects to a non-scientific audience, they found it engaging but difficult to grasp. Therefore, the idea here was to create a multimedia page to present complex information in an engaging and accessible way.`
+
+const abt_tls1=`Various different multimedia tools, such as timeline.js and genially, were used to make the content more appealing.`
+const abt_tls2=`AI art generators such as DALL-E by Open AI and Dream by WOMBO were used to develop background images.`
+
+const abt_ref1=`Timeline: \n \n
+` /*use \n \n for a new line*/
+
+const abt_ref2=`Map:\
+`/*use \n \n for a new line*/
+
+module.exports={hovTxt,landDg1,landDg2,landDg3,landDg4,landDg5,howTxt1,howTxt2,howTxt3,howTxt4,howTxt5,howTxt6,howTxt7,howTxt8,howTxt9,howTxt10,howTxt11,/*descText,list,howTxt,eodSbhd1,eod_P1,eodSbhd2,eodwp_p1,eodwp_p2,eodwp_p3,eodwp_p4,*/itb_sbhd,abt1,abt2,abt3,abt_tls1,abt_tls2,abt_ref1,abt_ref2}
