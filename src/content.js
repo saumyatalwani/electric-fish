@@ -87,7 +87,7 @@ const eodwp_p4 = ""
 
 */
 
-const itb_sbhd="Foraging Behaviour: Is it Random?"
+const itb_sbhd="To Be Added"
 
 const abt1 = `This website is a part of a voluntary project done by **Hardi Talwani** at the **Ratnam Electrophysiology Lab** at School of Arts and Sciences, Ahmedabad University.`
 

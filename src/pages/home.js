@@ -206,7 +206,7 @@ export default function Homepage() {
  
         <div className='h-screen p-10 bg-fish' id='exp'>
           <h2 className='text-4xl pb-10 heading'>In the Lab</h2>
-          <Markdown className='py-5 font-bold text-4xl'>{data.itb_sbhd}</Markdown>
+          <Markdown className='py-5 text-4xl'>{data.itb_sbhd}</Markdown>
           <Markdown className='pb-5'>{data.eodP1}</Markdown>
           <Markdown className='pb-5'>{data.eodP2}</Markdown>
           <Markdown className='pb-5'>{data.eodP3}</Markdown>
