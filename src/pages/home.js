@@ -158,7 +158,7 @@ export default function Homepage() {
         <Markdown className='pb-1'>{data.howTxt5}</Markdown>
       
           <div className='grid place-items-center w-screen'>
-            <img className="h-[35vh]" src={diagram2} alt="a diagram"/>
+            <img className="h-[28vh]" src={diagram2} alt="a diagram"/>
           </div>
           
         <Markdown className='pb-1'>{data.howTxt6}</Markdown>
@@ -167,7 +167,7 @@ export default function Homepage() {
         <Markdown className='pb-1'>{data.howTxt8}</Markdown>
         
         <div className='grid place-items-center w-screen'>
-          <img className="h-[35vh] p-2" src={diagram3} alt="a diagram"/>
+          <img className="h-[45vh] pb-2" src={diagram3} alt="a diagram"/>
         </div>
         
         
@@ -184,7 +184,7 @@ export default function Homepage() {
         <Markdown className='pb-1'>{data.howTxt9}</Markdown>
         
         <div className='grid place-items-center w-screen'>
-          <img className="h-[35vh] p-2" src={diagram4} alt="a diagram"/>
+          <img className="h-[45vh] p-2" src={diagram4} alt="a diagram"/>
         </div>
         
         <Markdown className='pb-1'>{data.eodSbhd1}</Markdown>
